@@ -1,0 +1,63 @@
+
+#main{
+    background-color: #494949 ;
+}
+.top{
+  text-align: center;
+  padding: 5px;
+  background-color: silver; 
+}
+#img-div{
+
+  padding: 20px;
+}
+#image{
+  margin: 0 auto;
+  display:block;
+  max-width: 100%; 
+  height: auto; 
+}
+#img-caption{
+  text-align: center;
+  font-size: 17px;
+  margin-top : 10px;
+  color:white;
+}
+#img-caption:before{
+  content: "\201C";
+  padding: 5px;
+}
+#img-caption:after{
+  content: "\201D";
+  padding: 5px;
+}
+#tribute-info{
+  padding:10px 60px;
+  background-color: silver ; 
+}
+#tribute-info h2{
+  text-align:center;
+}
+li{
+  list-type: square;
+  line-height: 1.5em;
+}
+#tribute-info h4{
+  text-align: center;
+}
+#tribute-link:visited{
+  color: slategrey;
+}
+#tribute-link:hover{
+  color: peru;
+}
+
+footer{
+  background-color: #494949; 
+  color: white;
+  text-align: center;
+}
+footer a{
+  color: peru;
+  padding: 0 5px;
+}
